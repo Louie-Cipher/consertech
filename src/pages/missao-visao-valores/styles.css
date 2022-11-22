@@ -19,13 +19,12 @@
     text-align: center;
 }
 
-.play-button {
+.audio-player {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #000;
-    color: #fff;
-    padding: 10px;
-    border-radius: 10px;
-    cursor: pointer;
+    width: 50%;
+    padding: 0 1rem;
+    text-align: center;
 }

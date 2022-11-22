@@ -1,21 +1,7 @@
-import { Howl } from 'howler';
-import { useState } from 'react';
 import podcast from '../../assets/podcast.mp3';
 import './styles.css';
 
 export default () => {
-    const [playing, setPlaying] = useState(false);
-
-    const handleButton = () => {
-        setPlaying(!playing);
-
-        if (playing) {
-            soundPlayer.pause();
-        } else {
-            soundPlayer.play();
-        }
-    };
-
     return (
         <div className='content'>
             <div className='mvv-item'>
@@ -41,15 +27,9 @@ export default () => {
 
             <div className='podcast-container'>
                 <p>Ouça aqui nosso podcast sobre nossa missão, visão e valores</p>
-                <button className='play-button' onClick={handleButton}>
-                    {playing ? 'Pausar' : 'Reproduzir'}
-                </button>
+
+                <audio className='audio-player' src={podcast} controls />
             </div>
         </div>
     );
 };
-
-const soundPlayer = new Howl({
-    src: [podcast],
-    volume: 2,
-});
