@@ -6,7 +6,7 @@
     "scripts": {
         "dev": "vite --host --port 80",
         "build": "tsc && vite build",
-        "serve": "vite preview",
+        "serve": "vite preview --port 80",
         "prod": "npm run build && npm run serve"
     },
     "dependencies": {
