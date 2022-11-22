@@ -18,6 +18,8 @@ export default () => {
                         name='Missão, Visão e Valores'
                         link='/missao-visao-valores'
                     />
+
+                    <HeaderLink name='Orçamento' link='/orcamento' />
                     
                     <HeaderLink
                         name='Suporte Remoto'
