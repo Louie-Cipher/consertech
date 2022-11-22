@@ -7,10 +7,11 @@ import Footer from './components/footer';
 import PageTitle from './components/pageTitle';
 import PageNotFound from './pages/PageNotFound';
 import SuporteRemoto from './pages/suporte-remoto';
+import Orcamento from './pages/orcamento';
 
 export default () => {
     return (
-        <div>
+        <div className='App'>
             <Header />
             <BrowserRouter>
                 <Routes>
@@ -23,6 +24,10 @@ export default () => {
                                 page={<MissaoVisaoValores />}
                             />
                         }
+                    />
+                    <Route
+                        path='/orcamento'
+                        element={<PageTitle title='Orçamento' page={<Orcamento />} />}
                     />
                     <Route
                         path='/suporte-remoto'
