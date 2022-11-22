@@ -1,8 +1,10 @@
 #header {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
+    /* margin-bottom is the height of the header. use this to adjust the height of the header */
+    margin-bottom: 500px;
     background-color: #1b6898;
     display: flex;
     flex-direction: column;
@@ -37,11 +39,11 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 95%;
 }
 
 .header-link {
-    margin-top: 1rem;
+    margin: 1rem 0;
     padding: 0.5rem 1rem;
     border: 1px solid white;
     border-radius: 0.5rem;
