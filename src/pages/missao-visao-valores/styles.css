@@ -1,0 +1,31 @@
+.mvv-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    padding: 0 1rem;
+    text-align: center;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.podcast-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.play-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
