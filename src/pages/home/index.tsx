@@ -5,9 +5,9 @@ export default () => {
         <div id='home'>
             <div className='content'>
                 <p>
-                    <strong>Consertech</strong> é uma empresa de assistência técnica especializada
-                    em computadores e notebooks. Realizamos manutenções corretivas e
-                    preventivas, de forma presencial ou por suporte remoto.
+                    <strong>Consertech</strong> é uma assistência técnica especializada em
+                    computadores e notebooks. Realizamos manutenções corretivas e preventivas, de
+                    forma presencial ou remota, para empresas e residências.
                 </p>
             </div>
         </div>
